@@ -276,7 +276,9 @@ nav ul li a:hover {
     color: 3A3A3A;
     font-weight: semibold;
 }
-
+.Products .product-list .product-item .info{
+       margin-left: 20px;
+    }
 .product-item .info p {
     font-size: 16px;
     color: #898989;
@@ -284,6 +286,7 @@ nav ul li a:hover {
     font-weight: medium;
     
 }
+
 
 .product-item .info h4 {
     font-size: 20px;
@@ -612,6 +615,9 @@ background-color: #ffffff;
         
         /* /* gap: 20px; */
     }
+    .Products .product-list .product-item .info{
+       margin-left: 20px;
+    }
 
     .footer-section .email input, .email button{
         display: block;
@@ -666,15 +672,22 @@ background-color: #ffffff;
    .Products .product-list {
        
   display: grid;
-  grid-template-columns: 1fr; /* Single column, takes up available width */
-  gap: 1rem; /* Adds space between cards */
+  grid-template-columns: 1fr; 
+  gap: 1rem; 
   justify-items: center;
   align-items: center;
-  width: 85%;
-   margin-left: 30px;
+ 
  
    }
 
+   .Products .product-list .product-item{
+    width: 90%;
+    
+   }
+
+   .Products .product-list .product-item .info{
+       margin-left: 20px;
+    }
     
 
     .Products .product-list .product-item img {
